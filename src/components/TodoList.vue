@@ -5,7 +5,7 @@
      
     <input v-model="formText" type="text">    
     </form>
- <transition-group name='list'>
+ <transition-group name='list' mode="out-in">
    <TodoItem v-for="(el, index) in list" :key="index"
  :el="el"
  :id='index'
@@ -26,9 +26,7 @@ export default {
   data(){
     return {
       list : [
-        'Bootstrap Site',
-        'Native App',
-        'DataBase Site'
+        
       ],
       formText:''
     }
