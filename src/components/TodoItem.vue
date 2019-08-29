@@ -25,6 +25,11 @@ methods : {
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) ;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 800px;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
 }
 
 </style>
